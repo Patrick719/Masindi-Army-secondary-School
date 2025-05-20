@@ -725,3 +725,8 @@ footer {
         margin-bottom: 10px;
     }
 }
+
+.copyright span{
+color: yellow;
+font-weight: 900;
+}
