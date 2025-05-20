@@ -620,6 +620,11 @@ footer {
     color: #ff6b6b;
 }
 
+.copyright span{
+color: yellow;
+font-weight: 900;
+}
+
 /* Responsive Styles */
 @media (max-width: 992px) {
     .about-content,
@@ -726,7 +731,3 @@ footer {
     }
 }
 
-.copyright span{
-color: yellow;
-font-weight: 900;
-}
