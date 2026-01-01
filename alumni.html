@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masindi Army SS – Old Students Association</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image" href="images/massosa.jpg">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVIGATION BAR (same as homepage) -->
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <img src="images/massosa.jpg" alt="School Logo">
+                <h1>Masindi Army S.S<span> Old Students Association</span></h1>
+            </div>
+
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <ul class="nav-list">
+                <li><a href="index.htmlf" class="active">Home</a></li>
+                <li><a href="alumni.html" class="active">Alumni</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero small-hero">
+        <div class="hero-content">
+            <h2>Masindi Army SS Old Students Association(MASSOSA) </h2>
+            <p>Connecting past students, as well as the ongoing students , Tunaongoza Wanafuatlia</p>
+            <a href="register_alumni.html" class="btn">Join MASSOSA</a>
+        </div>
+    </section>
+
+    <!-- ALUMNI CONTENT -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Our MASSOSA Network</h2>
+            <p>The Masindi Army SS Old Students Association brings together former students from different graduating classes. Our aim is to create professional networks, organize reunions, support current students, and celebrate the heritage of our school.</p>
+
+            <h3>Activities & Benefits</h3>
+            <ul>
+                <li>Annual alumni reunions</li>
+                <li>Career mentorship programs</li>
+                <li>Networking opportunities</li>
+                <li>Support for school initiatives</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; Masindi Army Secondary School Old Students Association MASSOSA </p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('mobile-menu').addEventListener('click', function() {
+            document.querySelector('.nav-list').classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
