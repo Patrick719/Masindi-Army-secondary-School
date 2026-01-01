@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="style.css">
+      <link rel="icon" type="image" href="images/logo.jpg">
+</head>
+<body>  
+     <form action="Application_form.php" method="POST">
+              <div class="application-form">
+                    <h3>Application Form</h3>
+                        <div class="form-group">
+                            <label for="student-name">Student Full Name</label>
+                            <input type="text" name="Student_Full_Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="dob">Date of Birth</label>
+                            <input type="date"  name="Date_of_Birth" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="gender">Gender</label>
+                            <select  name="Gender" required>
+                                <option value="">Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="current-school">Current School</label>
+                            <input type="text"  name="Current_School" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="class-applying">Class Applying For</label>
+                            <select  name="Class_Applying_For" required>
+                                <option value="">Select Class</option>
+                                <option value="s1">Senior 1</option>
+                                <option value="s2">Senior 2</option>
+                                <option value="s3">Senior 3</option>
+                                <option value="s4">Senior 4</option>
+                                <option value="s5">Senior 5</option>
+                                <option value="s6">Senior 6</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="parent-name">Parent/Guardian Name</label>
+                            <input type="text" name="Parent_Guardian_Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="parent-phone">Parent/Guardian Phone</label>
+                            <input type="tel"  name="Parent_Guardian_Phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="parent-email">Parent/Guardian Email</label>
+                            <input type="email"  name="Parent_Guardian_Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Physical Address</label>
+                            <textarea  name="Physical_Address" rows="3" required></textarea>
+                        </div>
+                        <div class="form-group">
+                        <label>Report Card from former school</label>
+                         <input type="file" accept=".pdf,.doc,.docx,.JPEG,.PNG,.WebP.,.TIFF,.jpg" required name="Report_Card_from_former_school">
+                        </div>
+                        <div class="form-group checkbox">
+                            <input type="checkbox" name="Agree" required>
+                            <label for="agree">I certify that the information provided is accurate</label>
+                        </div>
+                        <input type="submit" class="btn" value="Submit Application" name="submit">
+                </div>
+    </form>
+</body>
+</html>

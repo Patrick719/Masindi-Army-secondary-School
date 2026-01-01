@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumni Registration – Masindi Army SS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image" href="images/massosa.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <img src="images/massosa.jpg" alt="School Logo">
+                <h1>Masindi Army S.S<span> Old Students Association </span></h1>
+            </div>
+
+            <ul class="nav-list">
+                <li><a href="alumni.html">Home</a></li>
+                <li><a href="alumni.html" class="active">Alumni</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <form action="register_alumni.php" method="POST">
+    <section class="section form-section">
+        <div class="container">
+            <h2 class="section-title">MASSOSA Registration Form</h2>
+
+        
+            <div class="form-group">
+                            <label for="parent-name">Full Name</label>
+                            <input type="text" name="Full_Name" required>
+                        </div>
+                           <div class="form-group">
+                            <label for="parent-name">Year Of Graduation</label>
+                            <input type="date" name="Year_Of_Graduation" required>
+                        </div>
+                <div class="form-group">
+                            <label for="address">Physical Address</label>
+                            <input type="text" name="Physical_Address" rows="3" required>
+                        </div>
+
+                         <div class="form-group">
+                            <label for="parent-phone">Phone Number</label>
+                            <input type="tel" name="Phone_Number" required>
+                    
+                 
+                           <div class="form-group">
+                            <label for="parent-name">Current Profession</label>
+                            <input type="text"  name="Current_Profession" required>
+                        </div>
+                
+                         <div class="form-group">
+                            <label for="address">Short Biography</label>
+                            <textarea name="Short_Biography" rows="3" required></textarea>
+                        </div>
+                <button type="submit" class="btn" name="submit">Register</button>
+            </form>
+        </div>
+    </section>
+    </form>
+</body>
+</html>
