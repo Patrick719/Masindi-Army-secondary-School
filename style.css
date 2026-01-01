@@ -700,7 +700,11 @@ font-weight: 900;
         flex-direction: column;
         text-align: center;
     }
-    
+    header{
+     height: auto;
+     padding: 15px;
+    }
+ 
     .contact-info span {
         display: block;
         margin: 5px 0;
@@ -732,6 +736,7 @@ font-weight: 900;
 }
 
 /* register as massosa */
+
 
 
 
